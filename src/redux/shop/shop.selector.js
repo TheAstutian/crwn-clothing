@@ -21,4 +21,4 @@ createSelector(
     collections=> collections.find(
         collection=> collection.id === COLLECTION_ID_MAP[collectionUrlParam]
     )
-)
+) 
