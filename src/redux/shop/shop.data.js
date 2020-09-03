@@ -1,4 +1,5 @@
 const SHOP_DATA = {
+
  hats: {
     id: 1,
     title: 'Hats',
@@ -59,7 +60,7 @@ const SHOP_DATA = {
         price: 16
       }
     ]
-  },
+  } ,
   sneakers: {
     id: 2,
     title: 'Sneakers',
