@@ -1,7 +1,7 @@
-const SHOP_DATA = {
-
- hats: {
-    id: 1,
+const SHOP_DATA =  {
+ 
+  hats: {
+    id: 12323423,
     title: 'Hats',
     routeName: 'hats',
     items: [ 
@@ -245,6 +245,7 @@ const SHOP_DATA = {
       }
     ]
   }
+
 }
 
 export default SHOP_DATA;
