@@ -7,13 +7,16 @@ import {selectCartItemsCount} from '../../redux/cart/cart.selectors';
 
 import {ReactComponent as ShoppingIcon} from '../../assets/shopping-bag.svg';
 
-import './cart-icon.style.scss'
+
+
+import {CartIconStyle, ShoppingIconStyle, ItemCount} from './cart-icon.style';
 
 const CartIcon = ({toggleCartHidden, itemCount}) => (
-    <div className='cart-icon' onClick={toggleCartHidden}>
-        <ShoppingIcon className='shopping-icon'/>
-        <span className='item-count'>{itemCount}</span>
-    </div>
+    <CartIconStyle onClick={toggleCartHidden}>
+         <ShoppingIconStyle />
+        <ItemCount>{itemCount}</ItemCount>
+    </CartIconStyle>
+
 );
 
 const mapDispatchToProps = dispatch=> ({
